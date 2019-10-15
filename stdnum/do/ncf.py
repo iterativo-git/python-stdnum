@@ -180,7 +180,7 @@ def check_dgii(rnc, ncf, timeout=30):  # pragma: no cover
     data = {
         '__EVENTVALIDATION': validation,
         '__VIEWSTATE': viewstate,
-        'ctl00$cphMain$btnConsultar': 'Buscar',
+        'ctl00$cphMain$btnConsultar': 'Consultar',
         'ctl00$cphMain$txtNCF': ncf,
         'ctl00$cphMain$txtRNC': rnc,
     }
